@@ -1,0 +1,71 @@
+package Attributes;
+
+import java.io.Serializable;
+
+public class Patient implements Serializable {
+    private int ID;
+    private String name;
+    private int age;
+    private String email;
+    private String phoneNo;
+
+    public Patient() {
+    }
+
+    public Patient(int ID, String name, int age, String email, String phoneNo) {
+        this.ID = ID;
+        this.name = name;
+        this.age = age;
+        this.email = email;
+        this.phoneNo = phoneNo;
+    }
+
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNo() {
+        return phoneNo;
+    }
+
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
+    }
+
+    @Override
+    public String toString() {
+        return "Patient : "+ ID +"\n" +
+                "Name : " + name + "\n" +
+                "Age : " + age + "\n"+
+                "Email :" + email + "\n" +
+                "Phone No : " + phoneNo;
+    }
+}

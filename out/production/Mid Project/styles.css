@@ -1,0 +1,62 @@
+.heading{
+  -fx-font-family: Helvetica,Roboto
+}
+
+.back-btn{
+  -fx-background-color: linear-gradient(#ffc200, #e87719);
+  -fx-background-radius: 15;
+  -fx-font-weight: bold;
+  -fx-text-fill: white;
+  -fx-font-size: 14px;
+}
+
+.bold-text{
+  -fx-font-weight: bold;
+}
+
+.blue {
+  -fx-background-color: linear-gradient(#339af0, #1864ab);
+  -fx-background-insets: 0,1,2,3;
+  -fx-background-radius: 5;
+  -fx-padding: 10;
+  -fx-text-fill: white;
+  -fx-font-size: 12px;
+
+}
+.blue Text {
+  -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);
+}
+.blue:hover {
+  -fx-background-color: linear-gradient(#66d9e8, #63e6be);
+  -fx-background-insets: 0,1,2,3;
+  -fx-background-radius: 5;
+  -fx-padding: 10;
+  -fx-text-fill: white;
+  -fx-font-size: 12px;
+  -fx-font-weight:bold;
+}
+
+.textfield{
+  -fx-background-color: linear-gradient(whitesmoke,#c3fae8);
+  -fx-background-radius: 5;
+  -fx-padding: 9;
+  -fx-text-fill: black;
+  -fx-font-size: 14px;
+}
+
+
+.comboBox{
+  -fx-background-color: linear-gradient(whitesmoke,#c3fae8);
+  -fx-background-radius: 5;
+  -fx-text-fill: #404040;
+  -fx-font-size: 14px;
+}
+
+.table-view .column-header,
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+  -fx-background-color:#96f2d7;
+}
+
+
+
